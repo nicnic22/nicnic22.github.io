@@ -290,7 +290,7 @@ article img {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 
     #icon_wrapper,
 #grid_content,
@@ -405,7 +405,7 @@ article {
 
 
 /* Kunder siger blok til desktop */
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
 
     #kundeHistorier {
         display: grid;
@@ -436,7 +436,7 @@ article {
 }
 
 /* Test af footer */
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
 
     .footer_grid {
         padding: 20px 30px 20px 30px;

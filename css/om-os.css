@@ -14,7 +14,7 @@ main#om-os {
     display: grid;
     gap: 20px;
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     #om-os>h1 {
         margin-top: 20px;
         place-self: center;
@@ -120,7 +120,7 @@ main#om-os {
     margin: 0px 20px;
     margin-bottom: 20px;
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     #nyeTraenere h2 {
         grid-column: span 2;
         color: var(--brand-color-fourth);
@@ -268,7 +268,7 @@ main#om-os {
 
 /*--------------------- DESKTOP ----------------------*/
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
     .opdeler {
         background-color: #5e854b8c;
         color: #5e854b8c;
