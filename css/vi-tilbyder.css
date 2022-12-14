@@ -45,8 +45,13 @@
 
 .grid-tilbyder img:hover {
     transition: 0.4s;
-    transform: scale(1.03);
+    transform: scale(1.04);
 
+}
+
+
+#tilbyder-griditem-1, #tilbyder-griditem-2, #tilbyder-griditem-3, #tilbyder-griditem-4, #tilbyder-griditem-5, #tilbyder-griditem-6, #tilbyder-griditem-7, #tilbyder-griditem-8 {
+    overflow: hidden;
 }
 
 
