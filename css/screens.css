@@ -1,4 +1,4 @@
-@media (max-width: 860px) {
+@media (max-width: 1000px) {
   .footer_grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;

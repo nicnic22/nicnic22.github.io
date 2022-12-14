@@ -125,10 +125,10 @@ main#om-os {
         grid-column: span 2;
         color: var(--brand-color-fourth);
         background-color: var(--brand-color-third);
-        font-weight: bold;
-        font-size: 2.2rem;
         place-self: center;
         padding: 0px 155px;
+        font-weight: bold;
+        font-size: 2.3rem;
     }
 }
 #nyeTraenere h3 {
