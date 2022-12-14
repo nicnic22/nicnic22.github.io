@@ -31,6 +31,30 @@
 
 
 @media (max-width: 1000px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .main-menu.shown {
+    display: contents;
+  }
+
+  .main-menu ul {
+    display: none;
+  }
+
+  .main-menu.shown ul {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column;
+    flex-basis: 100%;
+  }
+
+  .ul-menu li a {
+    font-size: 2.4rem;
+  }
+
   #grid-singlepage-maintext {
     grid-template-columns: 1fr;
   }
