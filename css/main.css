@@ -1,32 +1,32 @@
 @font-face {
     font-family: Oswald-regular;
-    src: url(/fonts/oswald.regular.ttf);
+    src: url(fonts/oswald.regular.ttf);
 }
 
 
 @font-face {
     font-family: Oswald-light;
-    src: url(/fonts/oswald.light.ttf);
+    src: url(fonts/oswald.light.ttf);
 }
 
 @font-face {
     font-family: Lato-bold;
-    src: url(/fonts/Lato-Bold.ttf);
+    src: url(fonts/Lato-Bold.ttf);
 }
 
 @font-face {
     font-family: Lato-italic;
-    src: url(/fonts/Lato-Italic.ttf);
+    src: url(fonts/Lato-Italic.ttf);
 }
 
 @font-face {
     font-family: Lato-light;
-    src: url(/fonts/Lato-Light.ttf);
+    src: url(fonts/Lato-Light.ttf);
 }
 
 @font-face {
     font-family: Lato-regular;
-    src: url(/fonts/Lato-Regular.ttf);
+    src: url(fonts/Lato-Regular.ttf);
 }
 
 html {
@@ -61,7 +61,7 @@ p {
     letter-spacing: 0.04rem;
 }
 
-img {
+img:not(#hero_billede) {
     width: 100%;
     height: 100%;
 }
